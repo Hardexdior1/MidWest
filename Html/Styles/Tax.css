@@ -1,0 +1,42 @@
+.tax-general{
+    /* height: 70px; */
+    background-color:rgb(86, 86, 247);
+    opacity: 0.8;
+
+    line-height: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:560px) {
+  .tax-general{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}
+.tax-general h2 a{
+    color: goldenrod;
+    font-size:1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.tax-general p span {
+    font-size: 1rem;
+    text-decoration: none;
+    border: 1px solid rgb(187, 189, 201);
+    padding: 10px 16px;
+    color: white;
+    font-weight: 300;
+    border-radius: 0.5rem;
+}
+.tax-general p a{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+@media (max-width:560px) {
+    .tax-general p span{
+        display: inline-block;
+        margin-top: 10px;
+    }
+  }
