@@ -46,8 +46,9 @@
     margin-top: -9px;
 }
 .three-divs div:hover{
-    margin-top: 10px;
-    transition: margin-top 0.3s;
+    transition:  0.3s;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(56, 56, 47);
 }
 @media (max-width:566px) {
     .three-divs img{

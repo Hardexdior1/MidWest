@@ -10,7 +10,8 @@ body {
   /* height: 90.5vh; */
   padding-top: 5%;
   padding-bottom: 1%;
-  background-image: url(/images/3d-render-cartoon-character-young-260nw-2117403974.webp);
+  background-image: url(./images/3d-render-cartoon-character-young-260nw-2117403974.webp);
+  /* background-image: url(./images/3d-render-cartoon-character-young-260nw-2117403974.webp); */
   background-size: cover;
   margin: 0;
 }

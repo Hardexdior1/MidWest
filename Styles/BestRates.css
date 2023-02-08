@@ -74,7 +74,15 @@
     vertical-align: middle;
     background-color: #fdfcfc;
     text-align: left;
+    box-shadow: 2px 3px 3px rgb(133, 113, 113);
+    transition: 0.3s;
+    border-radius: 4px;
+    cursor: pointer;
 
 }
+.images-equity:hover{
+    border-radius: 7px;
+    box-shadow: 5px 5px 3px rgb(167, 159, 159);
 
+}
 
