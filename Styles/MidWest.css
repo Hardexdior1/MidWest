@@ -28,21 +28,24 @@
         font-size: 17.5px;
     }
 }
-
-
 .three-div2{
-    /* height: 400px; */
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
 }
-@media (max-width:566px){
+@media (max-width:542px){
     .three-div2{
         display: grid;
         grid-template-columns: 1fr;
     }
 }
-
+@media (max-width:1024px) {
+    .three-div2{
+        display:flex ;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
 .img-text img{
     height: 70px;
     width: 70px;
@@ -69,19 +72,12 @@
 }
 .three-div2 div{
     background-color: #ffff;
-    /* width: 97%; */
     width: 370px;
     border: 1px solid gainsboro;
-    
 }
-/* .three-div2 p:hover{
-    margin-top: 10px;
-    transition: margin-top 0.3s;
-} */
 @media (max-width:566px){
     .three-div2 div{
         background-color: #ffff;
-        /* width: 97%; */
         padding: 20px;
         width: 80%;
         margin: 0 auto;

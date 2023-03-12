@@ -1,8 +1,6 @@
 .tax-general{
-    /* height: 70px; */
     background-color:rgb(86, 86, 247);
     opacity: 0.8;
-
     line-height: 15px;
     display: flex;
     justify-content: space-around;

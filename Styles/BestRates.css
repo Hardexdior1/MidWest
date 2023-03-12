@@ -1,3 +1,6 @@
+.hello{
+    color: blue;
+}
 .best-wrap{
     text-align: center;
     background-color: #fff;
@@ -7,7 +10,6 @@
 }
 .rates{
     color: rgb(211, 11, 11);
-
 }
 .best-wrap h2{
     font-weight: 25px;
@@ -41,15 +43,12 @@
     font-family: roboto,sans-serif;
     margin-bottom: 0;
     margin-top: 0;
-
 }
 .four-divs{
-    /* line-height: 12px; */
     margin: 10px;
     display: flex;
+    gap: 12px;
     justify-content: space-around;
-    
-
 }
 @media (max-width:566px) {
     .four-divs{
@@ -67,9 +66,7 @@
 }
 .four-divs .images-equity{
     width: 190px;
-    /* height: 100px; */
     padding-left: 5px;
-    
     display: flex;
     vertical-align: middle;
     background-color: #fdfcfc;
@@ -78,11 +75,9 @@
     transition: 0.3s;
     border-radius: 4px;
     cursor: pointer;
-
 }
 .images-equity:hover{
     border-radius: 7px;
     box-shadow: 5px 5px 3px rgb(167, 159, 159);
-
 }
 
