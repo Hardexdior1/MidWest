@@ -6,6 +6,8 @@ window.addEventListener('scroll',()=>{
         header.style.position='fixed'
         header.style.left=0
         header.style.right=0
+        header.style.top=0
+
         header.style.transition='0.3s'
         header.classList.add('transition');
     }
